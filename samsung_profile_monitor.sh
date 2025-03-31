@@ -3,7 +3,7 @@
 # Path to the file containing the current state
 PROFILE_FILE="/sys/firmware/acpi/platform_profile"
 
-ICON_DIR="/usr/share/icons/platform_profile"
+ICON_DIR="$HOME/.local/share/icons/samsung_platform_profile_monitor"
 
 # Icons associated with each profile
 ICON_LOW="$ICON_DIR/0.png"
