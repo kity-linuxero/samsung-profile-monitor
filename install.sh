@@ -42,7 +42,7 @@ Description=Samsung Platform Profile Monitor
 After=graphical.target
 
 [Service]
-ExecStartPre=/bin/sleep 30
+ExecStartPre=/bin/sleep 10
 ExecStart=$SCRIPT_PATH
 Restart=always
 Environment=DISPLAY=:0
